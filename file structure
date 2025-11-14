@@ -1,0 +1,23 @@
+ingres_ai_chatbot/
+├── manage.py
+├── ingres_ai_backend/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── asgi.py
+├── chatbot/
+│   ├── __init__.py
+│   ├── views.py
+│   ├── urls.py
+│   ├── models.py
+│   ├── mongo_utils.py
+│   ├── serializers.py
+│   └── admin.py
+└── frontend/
+    ├── package.json
+    ├── src/
+    │   ├── App.jsx
+    │   ├── index.js
+    │   └── components/
+    │       └── ChatUI.jsx
